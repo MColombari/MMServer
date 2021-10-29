@@ -1,3 +1,4 @@
+package server.databaseClassTable;
 
 public class Question {
     public int qid;
@@ -20,7 +21,7 @@ public class Question {
         this.wrongAnswer3 = wrongAnswer3;
     }
 
-    /*      Getter      */
+    /*      Getter.     */
     public int getQid() {
         return qid;
     }
@@ -46,7 +47,7 @@ public class Question {
         return wrongAnswer3;
     }
 
-    /*      Setter      */
+    /*      Setter.     */
     public void setQid(int qid) {
         this.qid = qid;
     }
@@ -72,7 +73,7 @@ public class Question {
         this.wrongAnswer3 = wrongAnswer3;
     }
 
-    /*      toString        */
+    /*      toString.       */
     @Override
     public String toString() {
         return "Question{" +

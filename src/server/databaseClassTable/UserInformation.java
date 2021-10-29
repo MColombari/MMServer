@@ -1,3 +1,5 @@
+package server.databaseClassTable;
+
 public class UserInformation {
     public String name;
     public String surname;
@@ -11,7 +13,7 @@ public class UserInformation {
         this.matr = matr;
     }
 
-    /* Getter */
+    /*      Getter.     */
     public String getName() {
         return name;
     }
@@ -25,7 +27,7 @@ public class UserInformation {
         return matr;
     }
 
-    /* Setter */
+    /*      Setter.     */
     public void setName(String name) {
         this.name = name;
     }
@@ -39,6 +41,7 @@ public class UserInformation {
         this.matr = matr;
     }
 
+    /*      toString.       */
     @Override
     public String toString() {
         return "UserInformation{" +
